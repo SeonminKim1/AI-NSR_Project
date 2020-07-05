@@ -1,9 +1,8 @@
-# NSR_Project
-국가보안기술연구소 (NSR) 프로젝트
+### 국가보안기술연구소(NSR) Project
 
-# ■ 바이너리 대상 컴파일러 및 함수정보 추출 기계학습 기술 연구
+## ■ 바이너리 대상 컴파일러 및 함수정보 추출 기계학습 기술 연구
 
-## ■ 연구 필요성
+### ■ 연구 필요성
 - 다양한 바이너리 분석 도구
   - BAP, BitBlaze, BinNavi, IDA Pro 등
   - 스트립(stripped) 바이너리 분석 정확도 낮음
@@ -18,7 +17,7 @@
 
 - 스트립 악성 코드 분석을 위한 스트립 바이너리 분석 기술 필요
 
-## ■ 연구개발 목표
+### ■ 연구개발 목표
 - 기계학습 기반의 스트립(stripped) 리눅스 바이너리 분석 기술
   - 스트립 바이너리 제작에 사용된 컴파일러 탐지 기술
     - 바이너리 대상 컴파일러 종류 및 버전 판별 기계학습 모델
@@ -26,16 +25,16 @@
     - 함수 위치정보 (시작, 종료) 추출 기계학습 모델 연구
     - 함수 Basic block 정보 추출 기술 연구
 
-## ■ 연구 내용 1 - 리눅스 바이너리 DB
+### ■ 연구 내용 1 - 리눅스 바이너리 DB
 - 리눅스 바이너리 수집과 학습 데이터 생성
   - 리눅스 주요 배포판에 포함된 소스 코드와 바이너리 수집
   - 리눅스 바이너리에서 사용된 컴파일러 종류, 최적화 옵션, 함수 정보 획득 
   - 스트립 바이너리 생성
   - 리눅스 바이너리 데이터베이스 구축
 
-![linux_binary_db](readme_img/linux_binary_db.png')
+![linux_binary_db](readme_img/linux_binary_db.png)
 
-## ■ 연구 내용 2 - 컴파일러 정보 추출
+### ■ 연구 내용 2 - 컴파일러 정보 추출
 - 스트립 리눅스 바이너리 제작에 사용된 컴파일러 정보 추출 기술 연구
   - 바이너리 대상 컴파일러 종류 및 버전 판별 기계학습 모델
   - 탐지를 위해 총 3가지 탐지 모델 학습
@@ -45,9 +44,9 @@
   - 컴파일러는 gcc와 clang/llvm을 대상으로 함
   - 컴파일러 버전은 2개 이상, 최적화 옵션은 2개 이상을 구분 탐지 가능하도록 연구함 
 
-![compiler_detection_hybrid_model](readme_img/compiler_detection_hybrid_model.png')
+![compiler_detection_hybrid_model](readme_img/compiler_detection_hybrid_model.png)
 
-## ■ 연구 내용 3 - 함수 정보 추출
+### ■ 연구 내용 3 - 함수 정보 추출
 - 스트립된 리눅스 바이너리에서 함수정보 추출 기술 연구
   - 함수 위치정보 (시작, 종료) 추출 기계학습 모델 연구
   - 스트립된 바이너리에서, K개의 함수 시작 주소와 크기를 추출하는 기계학습 모델 설계
@@ -69,7 +68,9 @@
   - 함수정보 개선
     - 찾아낸 함수들을 이용하여 호출 그래프를 작성, 부정확한 함수 제거하여 정확도 향상
     
-![function_info_extraction](readme_img/function_info_extraction.png')
+![function_info_extraction](readme_img/function_info_extraction.png)
+
+<hr>
 
 ## 진행상황 (연구내용 3)
 
