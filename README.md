@@ -105,8 +105,9 @@
         - 소스코드 : Sub_Chunk_Test (전체 데이터 중 일부 1000byte씩 뽑아서 실험)
         - 소스코드 : NByte_gram_Test (다양한 gcc, 최적화 옵션 따라서 10byte 실험 진행)
 
-### 5. N Byte gram Solution (20.07.14)
-    - 진행중
-    - 
-        - 소스코드 : RNN_Input_Ngram
-        - 소스코드 : RNN_Input_Ngram_데이터비율 조정
+### 5. N Byte gram Solution (20.07.07)
+    - 문서 : (20.07.07)함수시작구분RNN
+    - 함수시작정보 부분만 잘라서 사용하는 NByte 방식과
+    - 함수시작정보 포함데이터 + 미포함 데이터 5:5 비율 실험결과
+        - 소스코드 : RNN_Input_Ngram_함수정보포함데이터만
+        - 소스코드 : RNN_Input_Ngram_함수정보미포함데이터추가
