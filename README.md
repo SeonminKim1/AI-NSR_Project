@@ -102,3 +102,9 @@
     
 ### 9. 지속적 보완
     - 이전 KFold 학습데이터 : 각 실행파일 중 코드섹션의 함수 부분만 학습 -> 전체 섹션에 대한 모든 함수 부분 학습
+    - 소스코드 : Prediction2/bin_core_gcc6_op0_Input Sequence 32_hidden units 48x2 ~ o3
+![컴파일러최적화옵션설명1](readme_img/컴파일러최적화옵션설명1.png)
+
+![컴파일러최적화옵션설명2](readme_img/컴파일러최적화옵션설명2.png)
+
+
