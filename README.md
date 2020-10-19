@@ -112,3 +112,7 @@
 
 ![컴파일러최적화옵션설명2](readme_img/컴파일러최적화옵션설명2.png)
 
+### 10. 보완2 
+  - kfold 에서 train (적당한 epoch 학습) + validation 으로 변경
+  - 최적 hyperparameter 값 찾기 
+  - 최적화 버전(o0 ~ o3) 각각 vs 최적화 통합 버전 비교 -> 최적화 통합 버전에서 조금더 좋은 결과를 보임
